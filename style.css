@@ -46,7 +46,7 @@ section.articolo{
     float: left;
 }
 /*regola clearfix*/
-section.parte-centrale::after{
+div.parte-centrale::after{
     content: "";
     display: table;
     clear: both;
