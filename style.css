@@ -1,0 +1,51 @@
+.pagina{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 150px;
+    background-color: #e579e6;
+    margin-bottom: 20px;
+}
+
+.banner{
+    height: 550px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+section.parte-centrale{
+    background-color: #0186ff;
+}
+.titolo-paragrafo{
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+aside.sidebar{
+    width: 20%;
+    height: 550px;
+    background-color: #abcfe7;
+    margin: 20px 0px;
+    float: left;
+}
+
+section.articolo{
+    width: 56%;
+    height: 550px;
+    background-color: #abcfe7;
+    margin: 20px 2% ;
+    float: left;
+}
+
+section.parte-centrale::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    height: 75px;
+    background-color: #8801fe;
+    margin-top: 20px;
+}
