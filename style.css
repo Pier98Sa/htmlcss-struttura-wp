@@ -1,28 +1,35 @@
+/*Regole comuni*/
+*{
+    box-sizing: border-box;
+}
 .pagina{
     width: 80%;
     margin: auto;
 }
+/*Fine regole comuni*/
 
+/*Regole Header*/
 header{
     height: 150px;
     background-color: #e579e6;
     margin-bottom: 20px;
 }
-
+/*Regole banner*/
 .banner{
     height: 550px;
     background-color: #e1d67a;
     margin-bottom: 20px;
 }
-
-section.parte-centrale{
+/* Inizio Regole parte centrale della pagina*/
+div.parte-centrale{
     background-color: #0186ff;
 }
+ /* regole del titolo del paragrafo*/
 .titolo-paragrafo{
     height: 100px;
     background-color: #abcfe7;
 }
-
+/*regole delle sidebar*/
 aside.sidebar{
     width: 20%;
     height: 550px;
@@ -30,7 +37,7 @@ aside.sidebar{
     margin: 20px 0px;
     float: left;
 }
-
+/*regole della sezione articolo tra le due sidebar*/
 section.articolo{
     width: 56%;
     height: 550px;
@@ -38,12 +45,13 @@ section.articolo{
     margin: 20px 2% ;
     float: left;
 }
-
+/*regola clearfix*/
 section.parte-centrale::after{
     content: "";
     display: table;
     clear: both;
 }
+/*regole footer*/
 footer{
     height: 75px;
     background-color: #8801fe;
